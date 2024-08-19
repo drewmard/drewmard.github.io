@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Andrew Marderstein"
 title_separator          : "-"
 name                     : &name "Andrew Marderstein"
-description              : &description "PhD Candidate | Tri-I Computational Biology & Medicine Program"
+description              : &description "Research Fellow | Memorial Sloan Kettering"
 url                      : https://drewmard.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "drewmard/drewmard.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Andrew Marderstein"
   avatar           : "Marderstein_Andrew_2.png"
-  bio              : "PhD candidate in the Tri-I Computational Biology & Medicine program using genomics to improve our understanding and treatment of human diseases."
+  bio              : "Research Fellow in the Clinical Genetics Service at Memorial Sloan Kettering Cancer Center."
   location         : "New York, NY | Ithaca, NY"
   employer         :
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=andrew+marderstein&sort=date"
