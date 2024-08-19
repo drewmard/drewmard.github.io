@@ -10,7 +10,7 @@ redirect_from:
 
 Hello!
 
-I am a Research Fellow at Memorial Sloan Kettering Cancer Center in the Clinical Genetics Service. My research focuses on identifying the cellular and molecular mechanisms driven by genetic factors, with the ultimate goal of discovering actionable insights for patient treatment.
+I am a Research Fellow at Memorial Sloan Kettering Cancer Center in the [Clinical Genetics Service](https://www.mskcc.org/cancer-care/risk-assessment-screening/genetic-counseling-and-testing). My research focuses on identifying the cellular and molecular mechanisms driven by genetic factors, with the ultimate goal of discovering actionable insights for patient treatment.
 
 As a Stanford University School of Medicine Dean's Postdoctoral Fellow in [Dr. Stephen Montgomery's lab](https://smontgomlab.github.io/index.html), I analyzed the largest single-cell multi-omic dataset of fetal Down Syndrome hematopoiesis. I discovered a potential mechanistic link between a reshaped chromatin landscape and clinical outcomes (such as the 150-fold increased risk of childhood leukemia or increased red blood cell counts), which is currently in press at Nature. Additionally, I applied deep learning models to predict the cell-type-specific regulatory effects of both rare and common non-coding variants (ASHG Presentations ’22, ’24) and led organizational initiatives within the IGVF Consortium.
 
