@@ -8,49 +8,66 @@ author_profile: true
 
 {% include base_path %}
 
-(last updated on 4/6/21 during my PhD)
+# Human Genetics | Single-cell Biology | Multi-omics | Therapeutic Modifiers
 
-# Genetic Interactions
+**What are the cellular and molecular impacts of genetic risk factors?**
 
-The interplay between genes and environment in human disease remains unclear. We are identifying interactions between genetic factors, lifestyle factors, and medications using massive biobank datasets, with an interest in individualized genetic prediction and modifiable risk factors.
+**Can therapeutic interventions be used to reduce deleterious effects?**
 
-## Statistical methods for discovering interactions
+I develop and utilize statistical and computational approaches across population biobanks and single-cell genomics to address these questions, collaborating closely with experimental labs, clinicians, and large consortia to validate and test mechanistic and therapeutic hypotheses.
 
-Specialized wearable tracking devices and improvements in biomarker data are being explored, and the hope is that these will deliver a quantum improvement in the availability and accuracy of environmental data. However, gene-environment (GxE) interaction testing suffers from a dimensionality problem when testing for the numerous possible interactions between genome-wide variants and many environmental factors. As a result, efficiently identifying GxE interactions is an important statistical and computational challenge. 
+<p align="center">
+<img src='/images/overview.png' width='450'>
+</p>
+
+## 1. How do complex genetic risk factors (involving multiple genes) drive high rates of disease?
+
+While individual variants and genes influence disease risk, it is unclear how they collectively shape risk. Single-cell multi-omics is a powerful technology for studying complex genetic risk factors. My postdoc research focused on fetal Down Syndrome (trisomy 21 or Ts21), which is a unique genetic model because of a large molecular impact (fetal hematopoiesis is defective, driving 150-fold higher risk for childhood leukemia3 and red blood cell (RBC) overproduction) stemming from an already-identified cellular context (fetal hematopoietic stem cells (HSCs)) and known genetic “variant” (Ts21). While Ts21 leukemogenesis is initiated before birth, the molecular changes that occur prior to key somatic mutation events are unclear. In collaboration with Stephen Montgomery’s and Ana Cvejic’s labs, I led a study using 1.1m scRNA-seq cells, 10X multiome, and spatial transcriptomics from fetal liver and femur. Our analysis found that gene expression differences were cell-type- and environment-specific; and by leveraging GWAS SNPs, we unveiled modified enhancer-gene maps that bias Ts21 HSCs towards the erythroid lineage. Notably, our results point to a key hypothesis where altered chromatin accessibility and heightened oxidative stress underlie increased mutational burden near leukemia-related genes. We are actively validating our findings and testing our hypotheses, exposing a novel perspective on leukemia etiology in Ts21 (Marderstein et al. In press at Nature).
+
+<p align="center">
+<img src='/images/t21.png' width='450'>
+</p>
+
+## 2. Which variants are causal and how do they exert their effects in disease-relevant cells?
+
+The majority of GWAS loci reside in non-coding regions. However, translating non-coding associations into mechanistic insights of disease is limited by incomplete knowledge of: (1) causal variants (due to linkage disequilibrium), (2) relevant cellular contexts, and (3) regulatory mechanisms linking SNPs to genes (which are cell-type-specific). 
+
+I developed a framework in collaboration with Soumya Kundu from Anshul Kundaje’s group for understanding how variants act within different cellular contexts. Broadly, using scATAC-seq, we (i) establish a single-cell map of causal cell types (by assessing GWAS variant enrichment in accessible chromatin), (ii) identify non-coding GWAS variants which reside in accessible chromatin of disease-relevant cell types, and (iii) predict the cell-type-specific effects of prioritized variants by training convolutional neural networks (called chromBPnet) that learn regulatory syntax and predict scATAC-seq profiles from DNA sequence. 
+
+<p align="center">
+<img src='/images/scatac.png' width='450'>
+</p>
+
+By applying our framework across neurological diseases using scATAC-seq cells from fetal and adult brain samples, we prioritized causal variants acting through causal cell types across traits (e.g. multiple microglia-specific variant effects at the non-coding Alzheimer’s locus near PICALM) and partitioned new disease pathways acting through individual cell types (e.g. ion transport regulation in Alzheimer’s via microglia). Furthermore, as our models can be applied to any base pair in the genome, we predicted regulatory effects at 10 million rare variants found in the human population. While the vast majority of these have negligible effects, our predictions helped prioritize non-coding rare variants involved in common disease and infer the selective pressures acting on regulatory variation. This demonstrates the potential to build context-specific regulatory maps which interpret the effects of non-coding loci in particular cell populations for multiple diseases (Marderstein et al. ASHG Mtg 2022, 2024 Presentations).
+
+<p align="center">
+<img src='/images/chrombpnet.png' width='450'>
+</p>
+
+As our approaches can be applied across diseases, I have been expanding our approaches in IGVF. I led the development of a multi-ancestry functional genomics resource with >40 collaborators to prioritize systemic lupus erythematosus (SLE) mechanisms. Collaborating in the IGVF Consortium has allowed us to integrate multiple data modalities for understanding variant impacts on genome function and disease. We (i) illuminated population-specific SLE variation, (ii) predicted regulatory consequences of non-coding SLE variants across primary immune cells (particularly B cells), and (iii) prioritized thousands of variants for CRISPR base editing and MPRAs (Marderstein et al. IGVF Mtg 2023 Presentation). As SLE has varying prevalence among ancestries, this work lays down the foundation to distinguish mechanisms contributing to health disparities.![image](https://github.com/user-attachments/assets/3e1b37cd-bc3b-43fc-8646-f6d73a439884)
+
+<p align="center">
+<img src='/images/igvf.png' width='450'>
+</p>
+
+## 3. How does environment modulate genetic effects, and can we use this information for therapeutic benefit? 
+
+Specialized wearable tracking devices and improvements in biomarker data are being explored, and the hope is that these will deliver a quantum improvement in the availability and accuracy of environmental data. However, gene-environment (GxE) interaction testing suffers from a dimensionality problem when testing for the numerous possible interactions between genome-wide variants and many environmental factors. As a result, efficiently identifying GxE interactions is an important statistical and computational challenge.
+
+I first published a new statistical method to identify variants influencing variability in traits (vQTLs), which were enriched for GxE and operate through pathways and cell types both akin to and distinct from the conventional GWAS loci (Marderstein et al. 2021a AJHG). 
 
 <p align="center">
 <img src='/images/vqtl.png' width='450'>
 </p>
 
-To address these difficulties, we are making use of a previously characterized observation that most GxE interactions with large effect size can be revealed as a change in the variance of a quantitative phenotype during a one-SNP-at-a-time genome-wide association study (GWAS). This insight can identify strong GxE interactions associated with a given quantitative trait via a two-step approach. First, we look for genome-wide SNPs that are associated with the variance of the trait, thus identifying what are known as variance quantitative trait loci (vQTLs). Second, we use these vQTLs to screen for potentially strong GxE interactions associated with the same phenotype. Scanning for vQTLs involves just a single test per SNP, so it provides a powerful inroad for discovering genetic interactions by nominating loci as promising candidates for an interaction. We are developing variance tests and applying our methods across phenotypes in large human genetic datasets.
+Our success led to the realization that environment modulates variant effects similarly across those involved in the same pathway, such that the impact of variants is consistently amplified in some key contexts. We recently found this amplification to be pervasive across environments and phenotypes (Poyraz, Clark, & Marderstein ASHG Mtg 2022 Presentation, SMBE Mtg 2021 Presentation). 
 
-## Importance of gene-environment interactions in risk prediction
-
-Polygenic scores (PGS), which summarize the effects of loci across the genome, have tremendous potential in healthcare for identifying high-risk individuals. However, PGS are currently based on only marginal additive SNP effects, and our research has identified strong GxE interactions influencing BMI variability. For example, variants in the FTO intron region (the strongest genetic regulators of obesity) are associated with a nearly double BMI increase in low exercise individuals compared to high exercise individuals. Interactions can perturb each individual from the expectation given a single genotype, and the ideal individual prediction would accommodate these interaction effects. An ongoing area is to explore whether PGS that consider interaction effects improve phenotype prediction over PGS that do not consider interaction effects. Simultaneously, we are exploring to what extent polygenic score accuracy varies across sociocultural and lifestyle strata from trait to trait, as PGSs have poor transferability across populations (possibly due to GxE).
-
-## Personalizing treatment regimens for breast cancer prevention
+Notably, as commonly-used medications present a promising set of modifiable factors to reduce polygenic risk, I tested for interactions between breast cancer risk and medication usage. I found that corticosteroid use exacerbates polygenic risk of breast cancer through NRF2-mediated gene regulation (Marderstein et al. 2021b AJHG). This demonstrated an exciting opportunity for envisioning GxE in precision medicine, such as identifying personalized strategies for treating individuals with high polygenic risk.
 
 <p align="center">
-<img src='/images/medication2.png' width='550'>
+<img src='/images/pgsdrug.png' width='450'>
 </p>
-
-Breast cancer (BC) is the most commonly diagnosed cancer in women, with over 2 million new cases and 600,000 deaths in 2018. While clinical measures for prevention do exist, non-invasive personalized measures for reducing BC risk are limited. Medications are a promising set of modifiable factors, however no previous study has explored whether a range of widely-taken approved drugs modulate BC genetics. Using UK Biobank, we are performing an extensive analysis of the interaction between BC genetic risk factors and medication usage, in an effort to reveal why some medication users experience adverse clinical outcomes or point to potential therapeutic repurposing opportunities for improving “poor” genetic risk.
-
-
-# Immune infiltration
-
-Infiltrating immune cells are prognostic of cancer progression and a tumor's response to treatment. By using computational approaches in genomic and transcriptomic datasets, we are evaluating immune infiltration across healthy and cancerous tissues in the human body and searching for the major factors that drive individuals' differences.
 
 <p align="center">
 <img src='/images/infil.png' width='360'>
 </p>
-
-## An atlas of immune infiltration across healthy human tissues
-
-One interesting observation based on histology slides by the GTEx consortium is that healthy tissues harbor infiltrating immune cells, and that there can be large differences in infiltration between samples of a single tissue type. Therefore, in order to understand disease-related infiltration, there is a need to understand the baseline healthy state. By applying cell-type deconvolution algorithms to bulk RNA-seq data in GTEx, we are assessing differences in infiltration across distinct tissues and evaluting the infiltration landscape across the human body. Our results have discovered sex-specific differences and aging-related associations in healthy tissue infiltration.
-
-## Genetic factors associated with infiltration
-
-Genetic determinants are a promising avenue for pinpointing the mechanisms differentiating immune-rich and immune-poor tissues and tumors. By applying genome-wide association study approaches to immune infiltration phenotypes, we aim to identify germline genetic associations, or iQTLs. We have integrated iQTLs with expression QTL and GWAS data to infer the molecular processes driving infiltration, link baseline infiltration to autoimmune disease, and provide insights into potential therapeutic targets for shifting infiltration profiles to something more favorable.
-
-More recently, we are evaluating the role of somatic variation in immune infiltration. After calling somatic mutations from GTEx RNA-seq data, we have found that the total number of somatic mutations (the "burden") correlates in a tissue-specific manner with particular immune cell abundances. Interestingly, there exist several mutations that have stronger associations with infiltration. We are continuing to explore germline-somatic interactions, mutational signatures, and clonal hematopoiesis across healthy and tumor tissues within the context of infiltration.
