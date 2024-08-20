@@ -72,4 +72,4 @@ Notably, as commonly-used medications present a promising set of modifiable fact
 <img src='/images/pgsdrug.png' width='450'>
 </p>
 
-Interested in collaborating? [Contact me](mailto:your-email@domain.com) to discuss potential projects or partnerships.
+Interested in collaborating? [Contact me](mailto:andrew.marderstein@gmail.com) to discuss potential projects or partnerships.
