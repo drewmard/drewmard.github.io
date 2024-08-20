@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-You can also view my updated list of publications using [Google Scholar](https://scholar.google.co.in/citations?user=jzCcxqEAAAAJ&hl=en&authuser=1) or [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=marderstein+ar&sort=date).
+You can also view my updated list of publications using [Google Scholar](https://scholar.google.com/citations?user=PDem21YAAAAJ&hl=en) or [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=marderstein+ar&sort=date).
 
 (^ = co-first or co-corresponding authors)
 
