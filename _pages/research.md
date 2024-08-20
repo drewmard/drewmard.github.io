@@ -8,16 +8,20 @@ author_profile: true
 
 {% include base_path %}
 
-# Human Genetics | Single-cell Biology | Multi-omics | Therapeutic Modifiers
+# Human Genetics | Single-cell Biology | Multi-omics | Modifiers
 
+<p align="center">
+  
 **What are the cellular and molecular impacts of genetic risk factors?**
 
 **Can therapeutic interventions be used to reduce deleterious effects?**
 
+</p>
+
 I develop and utilize statistical and computational approaches across population biobanks and single-cell genomics to address these questions, collaborating closely with experimental labs, clinicians, and large consortia to validate and test mechanistic and therapeutic hypotheses.
 
 <p align="center">
-<img src='/images/overview.png' width='450'>
+<img src='/images/overview.png' width='900'>
 </p>
 
 ## 1. How do complex genetic risk factors (involving multiple genes) drive high rates of disease?
@@ -25,7 +29,7 @@ I develop and utilize statistical and computational approaches across population
 While individual variants and genes influence disease risk, it is unclear how they collectively shape risk. Single-cell multi-omics is a powerful technology for studying complex genetic risk factors. My postdoc research focused on fetal Down Syndrome (trisomy 21 or Ts21), which is a unique genetic model because of a large molecular impact (fetal hematopoiesis is defective, driving 150-fold higher risk for childhood leukemia3 and red blood cell (RBC) overproduction) stemming from an already-identified cellular context (fetal hematopoietic stem cells (HSCs)) and known genetic “variant” (Ts21). While Ts21 leukemogenesis is initiated before birth, the molecular changes that occur prior to key somatic mutation events are unclear. In collaboration with Stephen Montgomery’s and Ana Cvejic’s labs, I led a study using 1.1m scRNA-seq cells, 10X multiome, and spatial transcriptomics from fetal liver and femur. Our analysis found that gene expression differences were cell-type- and environment-specific; and by leveraging GWAS SNPs, we unveiled modified enhancer-gene maps that bias Ts21 HSCs towards the erythroid lineage. Notably, our results point to a key hypothesis where altered chromatin accessibility and heightened oxidative stress underlie increased mutational burden near leukemia-related genes. We are actively validating our findings and testing our hypotheses, exposing a novel perspective on leukemia etiology in Ts21 (Marderstein et al. In press at Nature).
 
 <p align="center">
-<img src='/images/t21.png' width='450'>
+<img src='/images/t21.png' width='900'>
 </p>
 
 ## 2. Which variants are causal and how do they exert their effects in disease-relevant cells?
@@ -41,13 +45,13 @@ I developed a framework in collaboration with Soumya Kundu from Anshul Kundaje�
 By applying our framework across neurological diseases using scATAC-seq cells from fetal and adult brain samples, we prioritized causal variants acting through causal cell types across traits (e.g. multiple microglia-specific variant effects at the non-coding Alzheimer’s locus near PICALM) and partitioned new disease pathways acting through individual cell types (e.g. ion transport regulation in Alzheimer’s via microglia). Furthermore, as our models can be applied to any base pair in the genome, we predicted regulatory effects at 10 million rare variants found in the human population. While the vast majority of these have negligible effects, our predictions helped prioritize non-coding rare variants involved in common disease and infer the selective pressures acting on regulatory variation. This demonstrates the potential to build context-specific regulatory maps which interpret the effects of non-coding loci in particular cell populations for multiple diseases (Marderstein et al. ASHG Mtg 2022, 2024 Presentations).
 
 <p align="center">
-<img src='/images/chrombpnet.png' width='450'>
+<img src='/images/chrombpnet.png' width='750'>
 </p>
 
-As our approaches can be applied across diseases, I have been expanding our approaches in IGVF. I led the development of a multi-ancestry functional genomics resource with >40 collaborators to prioritize systemic lupus erythematosus (SLE) mechanisms. Collaborating in the IGVF Consortium has allowed us to integrate multiple data modalities for understanding variant impacts on genome function and disease. We (i) illuminated population-specific SLE variation, (ii) predicted regulatory consequences of non-coding SLE variants across primary immune cells (particularly B cells), and (iii) prioritized thousands of variants for CRISPR base editing and MPRAs (Marderstein et al. IGVF Mtg 2023 Presentation). As SLE has varying prevalence among ancestries, this work lays down the foundation to distinguish mechanisms contributing to health disparities.![image](https://github.com/user-attachments/assets/3e1b37cd-bc3b-43fc-8646-f6d73a439884)
+As our approaches can be applied across diseases, I have been expanding our approaches in IGVF. I led the development of a multi-ancestry functional genomics resource with >40 collaborators to prioritize systemic lupus erythematosus (SLE) mechanisms. Collaborating in the IGVF Consortium has allowed us to integrate multiple data modalities for understanding variant impacts on genome function and disease. We (i) illuminated population-specific SLE variation, (ii) predicted regulatory consequences of non-coding SLE variants across primary immune cells (particularly B cells), and (iii) prioritized thousands of variants for CRISPR base editing and MPRAs (Marderstein et al. IGVF Mtg 2023 Presentation). As SLE has varying prevalence among ancestries, this work lays down the foundation to distinguish mechanisms contributing to health disparities.
 
 <p align="center">
-<img src='/images/igvf.png' width='450'>
+<img src='/images/igvf.png' width='900'>
 </p>
 
 ## 3. How does environment modulate genetic effects, and can we use this information for therapeutic benefit? 
@@ -66,8 +70,4 @@ Notably, as commonly-used medications present a promising set of modifiable fact
 
 <p align="center">
 <img src='/images/pgsdrug.png' width='450'>
-</p>
-
-<p align="center">
-<img src='/images/infil.png' width='360'>
 </p>
