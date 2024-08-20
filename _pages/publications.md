@@ -7,7 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
-(last updated on 4/6/21 during my PhD)
+<p align="center">
+<img src='/images/infil.png' width='360'>
+</p>
 
 You can also view my updated list of publications using [Google Scholar](https://scholar.google.co.in/citations?user=jzCcxqEAAAAJ&hl=en&authuser=1) or [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=marderstein+ar&sort=date).
 
