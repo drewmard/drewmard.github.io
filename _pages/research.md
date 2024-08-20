@@ -10,13 +10,13 @@ author_profile: true
 
 # Human Genetics | Single-cell Biology | Multi-omics | Modifiers
 
-<p align="center">
+<div align="center">
   
-**What are the cellular and molecular impacts of genetic risk factors?**
-
-**Can therapeutic interventions be used to reduce deleterious effects?**
-
-</p>
+  <strong>What are the cellular and molecular impacts of genetic risk factors?</strong><br>
+  
+  <strong>Can therapeutic interventions be used to reduce deleterious effects?</strong>
+  
+</div>
 
 I develop and utilize statistical and computational approaches across population biobanks and single-cell genomics to address these questions, collaborating closely with experimental labs, clinicians, and large consortia to validate and test mechanistic and therapeutic hypotheses.
 
@@ -71,3 +71,5 @@ Notably, as commonly-used medications present a promising set of modifiable fact
 <p align="center">
 <img src='/images/pgsdrug.png' width='450'>
 </p>
+
+Interested in collaborating? [Contact me](mailto:your-email@domain.com) to discuss potential projects or partnerships.
