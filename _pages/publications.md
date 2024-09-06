@@ -25,7 +25,7 @@ You can also view my updated list of publications using [Google Scholar](https:/
 
 1. **Marderstein, A.R.**, De Zuani, M., Moeller, R., Bezney, J., Padhi, E., Wong, S., Coorens, T.H.H., Xie. Y., Xue, H., Montgomery, S.B.^, Cvejic, A^ (2024). Single-cell multi-omics map of human foetal blood in Down’s Syndrome. Preprint on *bioRxiv*. doi: [https://doi.org/10.1101/2023.09.25.559431](https://doi.org/10.1101/2023.09.25.559431) (In press at *Nature*)
 
-2. **IGVF Consortium** (2024). The Impact of Genomic Variation on Function (IGVF) Consortium. *Nature* 633, 47–57. doi: [https://doi.org/10.1038/s41586-024-07510-0](https://doi.org/10.1038/s41586-024-07510-0)
+2. **IGVF Consortium** (2024). Deciphering the impact of genomic variation on function. *Nature* 633, 47–57. doi: [https://doi.org/10.1038/s41586-024-07510-0](https://doi.org/10.1038/s41586-024-07510-0)
 
 3. Lima, S., Rupert, A., Putzel, G., **Marderstein, A.R.**, Woo, V., Viladomiu, M., Metz, M., Scherl, E., Longman, R. (2024). The gut microbiome regulates the clinical efficacy of sulfasalazine therapy for IBD-associated spondyloarthritis. *Cell Reports Medicine*. doi: [https://doi.org/10.1016/j.xcrm.2024.101431](https://doi.org/10.1016/j.xcrm.2024.101431).
 
