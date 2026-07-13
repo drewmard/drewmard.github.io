@@ -85,7 +85,7 @@ or
     *American Journal of Human Genetics* 108 (1), 1-19. DOI:
     <https://doi.org/10.1016/j.ajhg.2020.11.016>\
         > **Cornell Chronicle:** ["Cross-campus team probes gene-environment
-    interactions"](https://cals.cornell.edu/news/2021/01/cross-campus-team-probes-gene-environment-interactions)
+    interactions"](https://cals.cornell.edu/news/2021/01/cross-campus-team-probes-gene-environment-interactions)\
         > **Weill Cornell Newsroom:** ["Researchers simplify the study of
     gene-environment interactions"](https://news.weill.cornell.edu/news/2021/01/researchers-simplify-the-study-of-gene-environment-interactions)
 
