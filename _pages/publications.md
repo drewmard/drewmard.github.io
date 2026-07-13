@@ -74,8 +74,7 @@ or
     A.G.^, Elemento, O.^ (2021). A polygenic score-based approach for
     identification of gene-drug interactions stratifying breast cancer
     risk. *The American Journal of Human Genetics* 108 (9), 1752-1764.
-    DOI:
-    [10.1016/j.ajhg.2021.07.008](https://doi.org/10.1016/j.ajhg.2021.07.008).\
+    DOI: [10.1016/j.ajhg.2021.07.008](https://doi.org/10.1016/j.ajhg.2021.07.008).\
         > **GenomeWeb:** ["Breast Cancer Genetic Risk Modified by
     Corticosteroid Use"](https://www.precisionmedicineonline.com/cancer/breast-cancer-genetic-risk-modified-corticosteroid-use)
 
