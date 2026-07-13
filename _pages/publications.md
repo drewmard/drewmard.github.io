@@ -123,7 +123,7 @@ or
     Second Primary Cancers. (Under review at Nature Communications).
     Preprint on medRxiv. DOI:
     [https://doi.org/10.64898/2026.06.12.26355388](https://doi.org/10.64898/2026.06.12.26355388)
-4.  The ENCODE Project Consortium. The Encyclopedia of DNA Elements.
+4.  **The ENCODE Project Consortium**. The Encyclopedia of DNA Elements.
     (Under review at Nature)
 5.  Perea-Chamblee, T.^, Sun. H.^, ..., **Marderstein, A.R.**, ...,
     Gusev, A., Carrot-Zhang, J.. Multi-ancestral real-world data reveals
@@ -156,6 +156,6 @@ or
 <p align="center">
     <img src='/images/infil.png' width='360'>
 </p>
-Legend: Schematic image from Marderstein et al. (2021). Demographic and
+**Legend:** Schematic image from Marderstein et al. (2021). Demographic and
 genetic factors influence the abundance of infiltrating immune cells in
 human tissues. *Nature Communications*.
