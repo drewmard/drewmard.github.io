@@ -18,9 +18,6 @@ author_profile: true
 
 From single-nucleotide variants to whole-chromosome aneuploidies, a central challenge in biology is understanding how genetic alterations reshape gene regulation across development, aging, and cancer. The widespread adoption of whole-genome sequencing (WGS), from newborn screening and population health to somatic sequencing of healthy and cancerous tissues, has generated an unprecedented catalog of genetic variation. However, our ability to sequence genomes has far surpassed our ability to understand them. Billions of inherited and somatic variants have shifted the challenge from generating data to interpreting how they disrupt gene regulatory networks, alter cellular identity, and create lineage-specific susceptibilities to disease. My research seeks to understand how genetic alterations reshape gene regulation across the lifespan by integrating population genetics, single-cell genomics, machine learning, and functional genomics.
 
-<p align="center">
-<img src='/images/overview.png' width='900'>
-</p>
 
 ## 1. How does aneuploidy reshape cellular development, ultimately initiating cancer development??
 
