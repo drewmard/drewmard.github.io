@@ -68,7 +68,7 @@ or
     B., Medica, J.S.G., Elemento, O (2021). Pan-cancer analysis reveals
     molecular patterns associated with age. *Cell Reports* 37, 110100.
     DOI: <https://doi.org/10.1016/j.celrep.2021.110100>.\
-        > **Precision Oncology News:** ["Pan-Cancer Analysis Reveals Unique
+        > Precision Oncology News: ["Pan-Cancer Analysis Reveals Unique
     Features in Tumors From Younger People"](https://www.precisionmedicineonline.com/genetic-research/pan-cancer-analysis-reveals-unique-features-tumors-younger-people)
 
 11.  **Marderstein, A.R.**, Kulm, S., Peng, C., Tamimi, R.M., Clark,
@@ -76,7 +76,7 @@ or
     identification of gene-drug interactions stratifying breast cancer
     risk. *The American Journal of Human Genetics* 108 (9), 1752-1764.
     DOI: [10.1016/j.ajhg.2021.07.008](https://doi.org/10.1016/j.ajhg.2021.07.008).\
-        > **GenomeWeb:** ["Breast Cancer Genetic Risk Modified by
+        > GenomeWeb: ["Breast Cancer Genetic Risk Modified by
     Corticosteroid Use"](https://www.precisionmedicineonline.com/cancer/breast-cancer-genetic-risk-modified-corticosteroid-use)
 
 13.  **Marderstein, A.R.**, Davenport, E.R., Van Hout, C.V., Kulm, S.,
@@ -84,9 +84,9 @@ or
     variability to identify genetic interactions in human phenotypes.
     *American Journal of Human Genetics* 108 (1), 1-19. DOI:
     <https://doi.org/10.1016/j.ajhg.2020.11.016>\
-        > **Cornell Chronicle:** ["Cross-campus team probes gene-environment
+        > Cornell Chronicle: ["Cross-campus team probes gene-environment
     interactions"](https://cals.cornell.edu/news/2021/01/cross-campus-team-probes-gene-environment-interactions)\
-        > **Weill Cornell Newsroom:** ["Researchers simplify the study of
+        > Weill Cornell Newsroom: ["Researchers simplify the study of
     gene-environment interactions"](https://news.weill.cornell.edu/news/2021/01/researchers-simplify-the-study-of-gene-environment-interactions)
 
 15. **Marderstein, A.R.**, Uppal, M., Verma, A., Bhinder, B., Tayyebi,
