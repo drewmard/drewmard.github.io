@@ -12,7 +12,7 @@ Scholar](https://scholar.google.com/citations?user=PDem21YAAAAJ&hl=en)
 or
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=marderstein+ar&sort=date).
 
-(\^ = co-first or co-corresponding authors)
+(^ = co-first or co-corresponding authors)
 
 ## Published / Accepted
 
@@ -22,7 +22,7 @@ or
     [10.1038/s41588-026-02618-7](https://doi.org/10.1038/s41588-026-02618-7).
     (Research Briefing)
 
-2.  **Marderstein, A.R.**\^, Kundu, S.\^, ...., Kundaje, A.^, Montgomery,
+2.  **Marderstein, A.R.**^, Kundu, S.^, ...., Kundaje, A.^, Montgomery,
     S.B.^ (2026). Decoding common and rare non-coding variant effects across
     cellular and developmental contexts. *Nature Genetics*. DOI:
     [https://doi.org/10.1038/s41588-026-02619-6](https://doi.org/10.1038/s41588-026-02619-6)
@@ -64,7 +64,7 @@ or
     for IBD-associated spondyloarthritis. *Cell Reports Medicine*. DOI:
     <https://doi.org/10.1016/j.xcrm.2024.101431>.
 
-9.  Shah, Y.\^, Verma, A.\^, **Marderstein, A.R.**, White, J., Bhinder,
+9.  Shah, Y.^, Verma, A.^, **Marderstein, A.R.**, White, J., Bhinder,
     B., Medica, J.S.G., Elemento, O (2021). Pan-cancer analysis reveals
     molecular patterns associated with age. *Cell Reports* 37, 110100.
     DOI: <https://doi.org/10.1016/j.celrep.2021.110100>.\
@@ -111,7 +111,7 @@ or
 
 ## Under Review / In Revision / In Preparation
 
-1.  **Marderstein, A.R.**\^, Hunt, G.\^, Padhi, E.M.\^, ...., Cvejic,
+1.  **Marderstein, A.R.**^, Hunt, G.^, Padhi, E.M.^, ...., Cvejic,
     A.\* Trisomy 18 and 21 disrupt lineage-specific regulatory networks
     in foetal haematopoiesis. (In revision)
 2.  Niu, Y., Fansler, M., Chen, W, ..., **Marderstein, A.R.**,...,
@@ -125,7 +125,7 @@ or
     [https://doi.org/10.64898/2026.06.12.26355388](https://doi.org/10.64898/2026.06.12.26355388)
 4.  The ENCODE Project Consortium. The Encyclopedia of DNA Elements.
     (Under review at Nature)
-5.  Perea-Chamblee, T.\^, Sun. H.\^, ..., **Marderstein, A.R.**, ...,
+5.  Perea-Chamblee, T.^, Sun. H.^, ..., **Marderstein, A.R.**, ...,
     Gusev, A., Carrot-Zhang, J.. Multi-ancestral real-world data reveals
     germline determinants of somatic drivers and cancer progression. (In
     revision)
