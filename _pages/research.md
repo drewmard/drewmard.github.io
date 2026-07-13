@@ -40,13 +40,13 @@ Over two decades of GWAS have established non-coding regions as a significant co
 In collaboration with [Soumya Kundu](https://www.linkedin.com/in/soumya-kundu/) from [Dr. Anshul Kundaje's group](https://kundajelab.stanford.edu/), we used a framework to predict the cell-type-specific variant effects by training sequence-to-function deep learning models that learn regulatory syntax and predict scATAC-seq profiles from DNA sequence. As our models could be applied to any base pair in the genome, Soumya and I generated a resource of 3 billion variant-by-context predictions across >100 fetal and adult cellular contexts, aiding interpretation of disease variants and guiding experimental follow-up. 
 
 <p align="center">
-<img src='/images/rasgef1c.png' width='450'>
+<img src='/images/rasgef1c.png' width='650'>
 </p>
 
 Importantly, this revealed fundamental differences between common and rare variants, where rare variants are more likely to have broad regulatory effects across multiple cell types while common variants are more cell-type-specific. This led to developing FLARE, which integrates evolutionary constraint to prioritize non-coding variants with extreme functional effects. Applying FLARE to cohorts of families affected by autism spectrum disorder or congenital heart disease identified de novo mutations enriched in affected individuals but largely absent from controls, demonstrating the power of integrating population genetic signatures to interpret rare non-coding variation. We published FLARE in *Nature Genetics*.
 
 <p align="center">
-<img src='/images/FLARE_application.png' width='600'>
+<img src='/images/FLARE_application.png' width='500'>
 </p>
 
 At Memorial Sloan Kettering, I am actively working on approaches to more directly interpret the regulatory mechanisms learned by deep learning models using feature attribution methods. I am applying these methods to interpret clinical mutations, establishing a framework for linking non-coding variation to clinical and mechanistic interpretations of regulatory variation.
@@ -54,7 +54,7 @@ At Memorial Sloan Kettering, I am actively working on approaches to more directl
 As our approaches can be applied across diseases, I have been also applied these approaches in the [IGVF Consortium](https://www.genome.gov/news/news-release/NIH-providing-185-million-dollars-for-research-to-advance-understanding-of-how-human-genome-functions). I led the development of a multi-ancestry functional genomics resource with >40 collaborators to prioritize thousands of systemic lupus erythematosus (SLE) variants and their mechanisms for base editing and massively-parallel reporter assay experiments. As SLE has varying prevalence among ancestries, this work illuminated significant population-specific variation and laid down the foundation to distinguish mechanisms contributing to health disparities.
 
 <p align="center">
-<img src='/images/igvf.png' width='900'>
+<img src='/images/igvf.png' width='800'>
 </p>
 
 ## 3. How does environment modulate genetic effects, and can we use this information for therapeutic benefit? 
@@ -72,7 +72,7 @@ Our success led to the realization that environment modulates variant effects si
 Notably, as commonly-used medications present a promising set of modifiable factors to reduce polygenic risk, I tested for interactions between breast cancer risk and medication usage. I found that corticosteroid use exacerbates polygenic risk of breast cancer through NRF2-mediated gene regulation ([Marderstein et al. 2021b *AJHG*](https://www.sciencedirect.com/science/article/pii/S0002929721002767?via%3Dihub)). This demonstrated an exciting opportunity for envisioning GxE in precision medicine, such as identifying personalized strategies for treating individuals with high polygenic risk.
 
 <p align="center">
-<img src='/images/pgsdrug.png' width='450'>
+<img src='/images/pgsdrug.png' width='300'>
 </p>
 
 Interested in collaborating? [Contact me](mailto:andrew.marderstein@gmail.com) to discuss potential projects or partnerships.
