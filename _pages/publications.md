@@ -70,7 +70,7 @@ or
         > **Precision Oncology News:** ["Pan-Cancer Analysis Reveals Unique
     Features in Tumors From Younger People"](https://www.precisionmedicineonline.com/genetic-research/pan-cancer-analysis-reveals-unique-features-tumors-younger-people)
 
-11. **Marderstein, A.R.**, Kulm, S., Peng, C., Tamimi, R.M., Clark,
+11.  **Marderstein, A.R.**, Kulm, S., Peng, C., Tamimi, R.M., Clark,
     A.G.^, Elemento, O.^ (2021). A polygenic score-based approach for
     identification of gene-drug interactions stratifying breast cancer
     risk. *The American Journal of Human Genetics* 108 (9), 1752-1764.
