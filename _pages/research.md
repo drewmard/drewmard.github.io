@@ -8,47 +8,53 @@ author_profile: true
 
 {% include base_path %}
 
-# Human Genetics | Single-cell Biology | Multi-omics | Modifiers
+# Research Program
 
 <div align="center">
   
-  <strong>What are the cellular and molecular impacts of genetic risk factors?</strong><br>
-  
-  <strong>Can therapeutic interventions be used to reduce deleterious effects?</strong>
-  
+  <strong>Why do some individuals succumb to disease, while others exhibit remarkable resilience?</strong><br>
+    
 </div>
 
-I develop and utilize statistical and computational approaches across population biobanks and single-cell genomics to address these questions, collaborating closely with experimental labs, clinicians, and large consortia to validate and test mechanistic and therapeutic hypotheses.
+From single-nucleotide variants to whole-chromosome aneuploidies, a central challenge in biology is understanding how genetic alterations reshape gene regulation across development, aging, and cancer. The widespread adoption of whole-genome sequencing (WGS), from newborn screening and population health to somatic sequencing of healthy and cancerous tissues, has generated an unprecedented catalog of genetic variation. However, our ability to sequence genomes has far surpassed our ability to understand them. Billions of inherited and somatic variants have shifted the challenge from generating data to interpreting how they disrupt gene regulatory networks, alter cellular identity, and create lineage-specific susceptibilities to disease. My research seeks to understand how genetic alterations reshape gene regulation across the lifespan by integrating population genetics, single-cell genomics, machine learning, and functional genomics.
 
 <p align="center">
 <img src='/images/overview.png' width='900'>
 </p>
 
-## 1. How do complex genetic risk factors (involving multiple genes) drive high rates of disease?
-
-While individual variants and genes influence disease risk, it is unclear how they collectively shape risk. Single-cell multi-omics is a powerful technology for studying complex genetic risk factors. My postdoc research focused on fetal Down Syndrome (trisomy 21 or Ts21), which is a unique genetic model because of a large molecular impact (fetal hematopoiesis is defective, driving 150-fold higher risk for childhood leukemia and red blood cell (RBC) overproduction) stemming from an already-identified cellular context (fetal hematopoietic stem cells (HSCs)) and known genetic “variant” (Ts21). While Ts21 leukemogenesis is initiated before birth, the molecular changes that occur prior to key somatic mutation events are unclear. In collaboration with [Dr. Stephen Montgomery's](https://smontgomlab.github.io/index.html) and [Dr. Ana Cvejic’s](https://www.bric.ku.dk/research-groups/Research/cvejic-group/) labs, I led a study using 1.1m scRNA-seq cells, 10X multiome, and spatial transcriptomics from fetal liver and femur. Our analysis found that gene expression differences were cell-type- and environment-specific; and by leveraging GWAS SNPs, we unveiled modified enhancer-gene maps that bias Ts21 HSCs towards the erythroid lineage. Notably, our results point to a key hypothesis where altered chromatin accessibility and heightened oxidative stress underlie increased mutational burden near leukemia-related genes. We are actively validating our findings and testing our hypotheses, exposing a novel perspective on leukemia etiology in Ts21 (Marderstein et al. In press at *Nature*).
+## 1. How does aneuploidy reshape cellular development, ultimately initiating cancer development??
 
 <p align="center">
 <img src='/images/t21.png' width='900'>
 </p>
 
-## 2. Which variants are causal and how do they exert their effects in disease-relevant cells?
-
-The majority of GWAS loci reside in non-coding regions. However, translating non-coding associations into mechanistic insights of disease is limited by incomplete knowledge of: (1) causal variants (due to linkage disequilibrium), (2) relevant cellular contexts, and (3) regulatory mechanisms linking SNPs to genes (which are cell-type-specific). 
-
-I developed a framework in collaboration with [Soumya Kundu](https://www.linkedin.com/in/soumya-kundu/) from [Dr. Anshul Kundaje's group](https://kundajelab.stanford.edu/) for understanding how variants act within different cellular contexts. Broadly, using scATAC-seq, we (i) establish a single-cell map of causal cell types (by assessing GWAS variant enrichment in accessible chromatin), (ii) identify non-coding GWAS variants which reside in accessible chromatin of disease-relevant cell types, and (iii) predict the cell-type-specific effects of prioritized variants by training convolutional neural networks (called chromBPnet) that learn regulatory syntax and predict scATAC-seq profiles from DNA sequence. 
+Children with Down Syndrome (DS, trisomy 21) face 150-fold higher risk of leukemia by age 5, with profound hematological abnormalities before cancer occurs. However, while the initial cancer mutations appear before birth and are unique to Down Syndrome, it is unclear why they appear in the first place. In collaboration with [Dr. Stephen Montgomery's](https://smontgomlab.github.io/index.html) and [Dr. Ana Cvejic’s](https://www.bric.ku.dk/research-groups/Research/cvejic-group/) labs, using multimodal data spanning scRNA-seq, 10x multiome, and nano-CUT&Tag across >1 million cells with Hi-C and Visium spatial profiling, I mapped the human fetal hematopoietic system during this early pre-leukemic window in Down Syndrome and Edwards Syndrome (trisomy 18). In DS, I found that trisomy 21 induces oxidative stress, rewires enhancer-gene interactions, and influences chromatin organization to alter hematopoiesis: a novel finding on leukemia etiology in Down Syndrome that I published in *Nature*. More recently, using deep learning models of trisomy 18 and trisomy 21 cells to interpret TF networks, these data revealed a unifying model describing how aneuploidy reorganizes developmental gene regulatory networks to alter cell fate, setting the stage to study somatic aneuploidies in cancer (our manuscript on our follow-up study is in revision).
 
 <p align="center">
-<img src='/images/scatac.png' width='450'>
+<img src='/images/DS_Summary.png' width='900'>
 </p>
 
-By applying our framework across neurological diseases using scATAC-seq cells from fetal and adult brain samples, we prioritized causal variants acting through causal cell types across traits (e.g. multiple microglia-specific variant effects at the non-coding Alzheimer’s locus near *PICALM*) and partitioned new disease pathways acting through individual cell types (e.g. ion transport regulation in Alzheimer’s via microglia). Furthermore, as our models can be applied to any base pair in the genome, we predicted regulatory effects at 10 million rare variants found in the human population. While the vast majority of these have negligible effects, our predictions helped prioritize non-coding rare variants involved in common disease and infer the selective pressures acting on regulatory variation. This demonstrates the potential to build context-specific regulatory maps which interpret the effects of non-coding loci in particular cell populations for multiple diseases (Marderstein et al. [ASHG Mtg](https://www.ashg.org/meetings/) 2022, 2024 Presentations).
+In cancer, aneuploidy is one of the most common events, yet its effects on gene regulation and cell state are poorly understood. In tumors, aneuploidy emerges alongside many other molecular changes, making it difficult to distinguish their consequences. Therefore, germline trisomies provide a natural human model of chromosome dosage imbalance and a blueprint for understanding the regulatory consequences of somatic aneuploidy by tracing their effects through the earliest stages of development. My recent findings suggest that regulatory programs revealed by germline aneuploidy can re-emerge in cancer, providing a framework to discover novel oncogenic mechanisms and therapeutic strategies shaped by somatic chromosome dosage. My work seeks to develop a general framework for interpreting chromosome dosage across cancer by integrating clinicogenomic data, single-cell multi-omics, and functional perturbation, leveraging insights from germline aneuploidies to understand how chromosome dosage rewires regulatory circuits in cancer.
+
+## 2. How do non-coding genetic factors influence disease through cell-type-specific regulation?
+
+Over two decades of GWAS have established non-coding regions as a significant contributor to human disease, as the majority of GWAS loci reside in non-coding regions. However, translating non-coding associations into mechanistic insights of disease is limited by incomplete knowledge of: (1) causal variants (due to linkage disequilibrium), (2) relevant cellular contexts, and (3) regulatory mechanisms linking SNPs to genes (which are cell-type-specific). To address this, I have developed methods that integrate deep learning, population genetics, and functional genomics to systematically interpret regulatory variation. 
+
+In collaboration with [Soumya Kundu](https://www.linkedin.com/in/soumya-kundu/) from [Dr. Anshul Kundaje's group](https://kundajelab.stanford.edu/), we used a framework to predict the cell-type-specific variant effects by training sequence-to-function deep learning models that learn regulatory syntax and predict scATAC-seq profiles from DNA sequence. As our models could be applied to any base pair in the genome, Soumya and I generated a resource of 3 billion variant-by-context predictions across >100 fetal and adult cellular contexts, aiding interpretation of disease variants and guiding experimental follow-up. 
 
 <p align="center">
-<img src='/images/chrombpnet.png' width='750'>
+<img src='/images/rasgef1c.png' width='450'>
 </p>
 
-As our approaches can be applied across diseases, I have been expanding our approaches in the [IGVF Consortium](https://www.genome.gov/news/news-release/NIH-providing-185-million-dollars-for-research-to-advance-understanding-of-how-human-genome-functions). I led the development of a multi-ancestry functional genomics resource with >40 collaborators to prioritize systemic lupus erythematosus (SLE) mechanisms. Collaborating in the IGVF Consortium has allowed us to integrate multiple data modalities for understanding variant impacts on genome function and disease. We (i) illuminated population-specific SLE variation, (ii) predicted regulatory consequences of non-coding SLE variants across primary immune cells (particularly B cells), and (iii) prioritized thousands of variants for CRISPR base editing and MPRAs (Marderstein et al. IGVF Mtg 2023 Presentation). As SLE has varying prevalence among ancestries, this work lays down the foundation to distinguish mechanisms contributing to health disparities.
+Importantly, this revealed fundamental differences between common and rare variants, where rare variants are more likely to have broad regulatory effects across multiple cell types while common variants are more cell-type-specific. This led to developing FLARE, which integrates evolutionary constraint to prioritize non-coding variants with extreme functional effects. Applying FLARE to cohorts of families affected by autism spectrum disorder or congenital heart disease identified de novo mutations enriched in affected individuals but largely absent from controls, demonstrating the power of integrating population genetic signatures to interpret rare non-coding variation. We published FLARE in *Nature Genetics*.
+
+<p align="center">
+<img src='/images/FLARE_application.png' width='600'>
+</p>
+
+At Memorial Sloan Kettering, I am actively working on approaches to more directly interpret the regulatory mechanisms learned by deep learning models using feature attribution methods. I am applying these methods to interpret clinical mutations, establishing a framework for linking non-coding variation to clinical and mechanistic interpretations of regulatory variation.
+
+As our approaches can be applied across diseases, I have been also applied these approaches in the [IGVF Consortium](https://www.genome.gov/news/news-release/NIH-providing-185-million-dollars-for-research-to-advance-understanding-of-how-human-genome-functions). I led the development of a multi-ancestry functional genomics resource with >40 collaborators to prioritize thousands of systemic lupus erythematosus (SLE) variants and their mechanisms for base editing and massively-parallel reporter assay experiments. As SLE has varying prevalence among ancestries, this work illuminated significant population-specific variation and laid down the foundation to distinguish mechanisms contributing to health disparities.
 
 <p align="center">
 <img src='/images/igvf.png' width='900'>
@@ -56,9 +62,9 @@ As our approaches can be applied across diseases, I have been expanding our appr
 
 ## 3. How does environment modulate genetic effects, and can we use this information for therapeutic benefit? 
 
-Specialized wearable tracking devices and improvements in biomarker data are being explored, and the hope is that these will deliver a quantum improvement in the availability and accuracy of environmental data. However, gene-environment (GxE) interaction testing suffers from a dimensionality problem when testing for the numerous possible interactions between genome-wide variants and many environmental factors. As a result, efficiently identifying GxE interactions is an important statistical and computational challenge.
+Specialized wearable tracking devices, satellite imaging, and molecular biomarker data are being developed, and the hope is that these will deliver a quantum improvement in the availability and accuracy of environmental data. However, gene-environment (GxE) interaction testing suffers from a dimensionality problem when testing for the numerous possible interactions between genome-wide variants and many environmental factors. As a result, efficiently identifying GxE interactions is an important statistical and computational challenge.
 
-I first published a new statistical method to identify variants influencing variability in traits (vQTLs), which were enriched for GxE and operate through pathways and cell types both akin to and distinct from the conventional GWAS loci ([Marderstein et al. 2021a *AJHG*](https://www.cell.com/ajhg/fulltext/S0002-9297(20)30434-1)). 
+I developed the Deviation Regression Model to improve GxE discovery by first identifying variants associated with variability (vQTLs). The Deviation Regression Model remains one of the best-performing approaches for vQTL detection. Furthermore, these vQTLs were enriched for GxE interactions and operate through pathways and cell types both akin to and distinct from the conventional GWAS loci ([Marderstein et al. 2021a *AJHG*](https://www.cell.com/ajhg/fulltext/S0002-9297(20)30434-1)), providing a new window into the genetic basis of complex phenotypes.
 
 <p align="center">
 <img src='/images/vqtl.png' width='450'>
