@@ -37,7 +37,7 @@ or
     A.R.**, Montgomery, S.B., ..., Trappe, S.^, Sealfon, S.C.^ (2025).
     Integrated single-cell multiome analysis reveals muscle fiber-type
     gene regulatory circuitry modulated by endurance exercise. *Genome
-    Research*. DOI: [10.1101/gr](https://doi.org/10.1101/gr).280051.124
+    Research*. DOI: [10.1101/gr.280051.124](https://pmc.ncbi.nlm.nih.gov/articles/PMC12212352/)
 
 5.  Coorens, T.H.H., et al., **the dGTEx Consortium** (2025). The human
     and non-human primate developmental GTEx projects. *Nature*. 637,
@@ -76,7 +76,7 @@ or
     identification of gene-drug interactions stratifying breast cancer
     risk. *The American Journal of Human Genetics* 108 (9), 1752-1764.
     DOI:
-    [10.1016/j.ajhg.2021.07.008](https://doi.org/10.1016/j.ajhg.2021.07.008).
+    [10.1016/j.ajhg.2021.07.008](https://doi.org/10.1016/j.ajhg.2021.07.008).\
         > **GenomeWeb:** ["Breast Cancer Genetic Risk Modified by
     Corticosteroid Use"](https://www.precisionmedicineonline.com/cancer/breast-cancer-genetic-risk-modified-corticosteroid-use)
 
@@ -84,7 +84,7 @@ or
     Elemento, O.^, Clark, A.G.^ (2021). Leveraging phenotypic
     variability to identify genetic interactions in human phenotypes.
     *American Journal of Human Genetics* 108 (1), 1-19. DOI:
-    <https://doi.org/10.1016/j.ajhg.2020.11.016>
+    <https://doi.org/10.1016/j.ajhg.2020.11.016>\
         > **Cornell Chronicle:** ["Cross-campus team probes gene-environment
     interactions"](https://cals.cornell.edu/news/2021/01/cross-campus-team-probes-gene-environment-interactions)
         > **Weill Cornell Newsroom:** ["Researchers simplify the study of
