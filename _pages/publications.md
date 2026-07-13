@@ -22,19 +22,19 @@ or
     [10.1038/s41588-026-02618-7](https://doi.org/10.1038/s41588-026-02618-7).
     (Research Briefing)
 
-2.  **Marderstein, A.R.**\^, Kundu, S.\^, ...., Kundaje, A., Montgomery,
-    S.B. (2026). Decoding common and rare non-coding variant effects across
+2.  **Marderstein, A.R.**\^, Kundu, S.\^, ...., Kundaje, A.^, Montgomery,
+    S.B.^ (2026). Decoding common and rare non-coding variant effects across
     cellular and developmental contexts. *Nature Genetics*. DOI:
     [https://doi.org/10.1038/s41588-026-02619-6](https://doi.org/10.1038/s41588-026-02619-6)
 
-3.  Uppal, M., Bhinder, B., **Marderstein, A.R.**, ..., Salles, G.,
-    Joffe, E. (2026). Integrative molecular analysis reveals
+3.  Uppal, M., Bhinder, B., **Marderstein, A.R.**, ..., Salles, G.^,
+    Joffe, E.^ (2026). Integrative molecular analysis reveals
     determinants of clinical outcomes in TP53-mutated diffuse large
     B-cell lymphoma. *Journal of Clinical Oncology*. DOI:
     [10.1200/JCO-25-01928](https://doi.org/10.1200/JCO-25-01928)
 
 4.  Rubenstein, A.B., Smith, G.R., Zhang, Z., ..., **Marderstein,
-    A.R.**, Montgomery, S.B., ..., Trappe, S.*, Sealfon, S.C.* (2025).
+    A.R.**, Montgomery, S.B., ..., Trappe, S.^, Sealfon, S.C.^ (2025).
     Integrated single-cell multiome analysis reveals muscle fiber-type
     gene regulatory circuitry modulated by endurance exercise. Genome
     Research. DOI: [10.1101/gr](https://doi.org/10.1101/gr).280051.124
@@ -44,8 +44,8 @@ or
     557--564 (2025). https://doi.org/10.1038/s41586-024-08244-9
 
 6.  **Marderstein, A.R.**, De Zuani, M., Moeller, R., Bezney, J., Padhi,
-    E., Wong, S., Coorens, T.H.H., Xie. Y., Xue, H., Montgomery, S.B.\*,
-    Cvejic, A (2024). Single-cell multi-omics map of human fetal blood
+    E., Wong, S., Coorens, T.H.H., Xie. Y., Xue, H., Montgomery, S.B.^,
+    Cvejic, A.^ (2024). Single-cell multi-omics map of human fetal blood
     in Down's Syndrome. Nature 634, 104-112. DOI:
     <https://doi.org/10.1038/s41586-024-07946-4> \> Nature News & Views:
     ["Childhood leukaemia in Down's syndrome primed by blood-cell
@@ -72,7 +72,7 @@ or
     Features in Tumors From Younger People"
 
 10. **Marderstein, A.R.**, Kulm, S., Peng, C., Tamimi, R.M., Clark,
-    A.G.\^, Elemento, O.\^ (2021). A polygenic score-based approach for
+    A.G.^, Elemento, O.^ (2021). A polygenic score-based approach for
     identification of gene-drug interactions stratifying breast cancer
     risk. *The American Journal of Human Genetics* 108 (9), 1752-1764.
     DOI:
@@ -81,7 +81,7 @@ or
     Corticosteroid Use"
 
 11. **Marderstein, A.R.**, Davenport, E.R., Van Hout, C.V., Kulm, S.,
-    Elemento, O.\^, Clark, A.G.\^ (2021). Leveraging phenotypic
+    Elemento, O.^, Clark, A.G.^ (2021). Leveraging phenotypic
     variability to identify genetic interactions in human phenotypes.
     *American Journal of Human Genetics* 108 (1), 1-19. DOI:
     <https://doi.org/10.1016/j.ajhg.2020.11.016>\
@@ -91,7 +91,7 @@ or
     gene-environment interactions"
 
 12. **Marderstein, A.R.**, Uppal, M., Verma, A., Bhinder, B., Tayyebi,
-    Z., Mezey, J., Clark, A.G.\^, Elemento, O.\^ (2020). Demographic and
+    Z., Mezey, J., Clark, A.G.^, Elemento, O.^ (2020). Demographic and
     genetic factors influence the abundance of infiltrating immune cells
     in human tissues. *Nature Communications* 11, 2213. DOI:
     <https://doi.org/10.1038/s41467-020-16097-9>
