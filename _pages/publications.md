@@ -155,6 +155,7 @@ or
 <p align="center">
     <img src='/images/infil.png' width='360'>
 </p>
+
 **Legend:** Schematic image from Marderstein et al. (2021). Demographic and
 genetic factors influence the abundance of infiltrating immune cells in
 human tissues. *Nature Communications*.
