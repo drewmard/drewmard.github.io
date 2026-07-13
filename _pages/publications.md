@@ -78,7 +78,7 @@ or
         > **GenomeWeb:** ["Breast Cancer Genetic Risk Modified by
     Corticosteroid Use"](https://www.precisionmedicineonline.com/cancer/breast-cancer-genetic-risk-modified-corticosteroid-use)
 
-13. **Marderstein, A.R.**, Davenport, E.R., Van Hout, C.V., Kulm, S.,
+13.  **Marderstein, A.R.**, Davenport, E.R., Van Hout, C.V., Kulm, S.,
     Elemento, O.^, Clark, A.G.^ (2021). Leveraging phenotypic
     variability to identify genetic interactions in human phenotypes.
     *American Journal of Human Genetics* 108 (1), 1-19. DOI:
