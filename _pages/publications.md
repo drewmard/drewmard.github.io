@@ -68,35 +68,35 @@ or
     B., Medica, J.S.G., Elemento, O (2021). Pan-cancer analysis reveals
     molecular patterns associated with age. *Cell Reports* 37, 110100.
     DOI: <https://doi.org/10.1016/j.celrep.2021.110100>.\
-        > **Precision Oncology News:** "Pan-Cancer Analysis Reveals Unique
-    Features in Tumors From Younger People"
+        > **Precision Oncology News:** ["Pan-Cancer Analysis Reveals Unique
+    Features in Tumors From Younger People"](https://www.precisionmedicineonline.com/genetic-research/pan-cancer-analysis-reveals-unique-features-tumors-younger-people)
 
 11. **Marderstein, A.R.**, Kulm, S., Peng, C., Tamimi, R.M., Clark,
     A.G.^, Elemento, O.^ (2021). A polygenic score-based approach for
     identification of gene-drug interactions stratifying breast cancer
     risk. *The American Journal of Human Genetics* 108 (9), 1752-1764.
     DOI:
-    [10.1016/j.ajhg.2021.07.008](https://doi.org/10.1016/j.ajhg.2021.07.008).\
-        > **GenomeWeb:** "Breast Cancer Genetic Risk Modified by
-    Corticosteroid Use"
+    [10.1016/j.ajhg.2021.07.008](https://doi.org/10.1016/j.ajhg.2021.07.008).
+        > **GenomeWeb:** ["Breast Cancer Genetic Risk Modified by
+    Corticosteroid Use"](https://www.precisionmedicineonline.com/cancer/breast-cancer-genetic-risk-modified-corticosteroid-use)
 
-12. **Marderstein, A.R.**, Davenport, E.R., Van Hout, C.V., Kulm, S.,
+13. **Marderstein, A.R.**, Davenport, E.R., Van Hout, C.V., Kulm, S.,
     Elemento, O.^, Clark, A.G.^ (2021). Leveraging phenotypic
     variability to identify genetic interactions in human phenotypes.
     *American Journal of Human Genetics* 108 (1), 1-19. DOI:
-    <https://doi.org/10.1016/j.ajhg.2020.11.016>\
-        \> **Cornell Chronicle:** "Cross-campus team probes gene-environment
-    interactions"\
-        \> **Weill Cornell Newsroom:** "Researchers simplify the study of
-    gene-environment interactions"
+    <https://doi.org/10.1016/j.ajhg.2020.11.016>
+        > **Cornell Chronicle:** ["Cross-campus team probes gene-environment
+    interactions"](https://cals.cornell.edu/news/2021/01/cross-campus-team-probes-gene-environment-interactions)
+        > **Weill Cornell Newsroom:** ["Researchers simplify the study of
+    gene-environment interactions"](https://news.weill.cornell.edu/news/2021/01/researchers-simplify-the-study-of-gene-environment-interactions)
 
-13. **Marderstein, A.R.**, Uppal, M., Verma, A., Bhinder, B., Tayyebi,
+15. **Marderstein, A.R.**, Uppal, M., Verma, A., Bhinder, B., Tayyebi,
     Z., Mezey, J., Clark, A.G.^, Elemento, O.^ (2020). Demographic and
     genetic factors influence the abundance of infiltrating immune cells
     in human tissues. *Nature Communications* 11, 2213. DOI:
     <https://doi.org/10.1038/s41467-020-16097-9>
 
-14. Castellanos, J.G., Woo, V., Viladomiu, M., Putzel, G., Lima, S.,
+16. Castellanos, J.G., Woo, V., Viladomiu, M., Putzel, G., Lima, S.,
     Diehl, G.E., **Marderstein, A.R.**, Gandara, J., Perez, A.R.,
     Withers, D.R., Targan, S.R., Shih, D.Q., Scherl, E.J., Longman, R.S.
     (2018). Microbiota-induced TNF-like ligand 1A drives Group 3 innate
@@ -104,7 +104,7 @@ or
     activation during colitis. *Immunity* 49(6):1077-1089.e5. DOI:
     [10.1016/j.immuni.2018.10.014](https://doi.org/10.1016/j.immuni.2018.10.014)
 
-15. **Marderstein, A.R.** (2017). Approximate Bayesian Computation for
+17. **Marderstein, A.R.** (2017). Approximate Bayesian Computation for
     Studying Selective Sweep Signatures in Local Coalescence Trees.
     Honors Thesis, College of Agriculture and Life Sciences, Cornell
     University. Supervisor: Philipp Messer.
